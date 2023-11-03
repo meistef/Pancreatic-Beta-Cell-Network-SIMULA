@@ -18,13 +18,14 @@ toc;
 %% run_ga: function description
 function [outputs] = run_ga(nTrials)
     %stdev_vec = [0.71, 0.90, 0.03, 0.09, 0.14, 0.27, 0.37, 0.80, 0, 0.34, 0.40, 0.42, 0.89, 0.30, 0.15, 0.15, 0.49, 0.15, 0.15, 0.15, 0.49, 0.15];
-    input_vector = [0.34, 0.4]; % optimize gCaPQ and gCaL
-    
+    %input_vector = [0.34, 0.4]; % optimize gCaPQ and gCaL
+    input_vector = [0.34, 0.4, 0.15]; % gCaPQ, gCaL, V_hNa_low
+
     %Note gNa stdev(9) replaced later in code
     initial_population = input_vector;
-    nval = 2;
+    nval = 3;%2;
     ub = input_vector.*2;
-    lb = zeros(2, 1);
+    lb = zeros(3, 1);
     A = [];
     b = [];
     Aeq = [];

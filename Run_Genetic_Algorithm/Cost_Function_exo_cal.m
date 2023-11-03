@@ -10,6 +10,7 @@ frac_low = 1-frac_high; %85% INa low
 st_dev_vector = zeros(1, 22);
 st_dev_vector(10) = input_vec(1);  %gCaL
 st_dev_vector(11) = input_vec(2);  %gCaPQ
+st_dev_vector(19) = input_vec(3);  %V_hNa_low
 
 modParam_stdev_noNa = st_dev_vector(1:14); % standard deviations (normalized to the mean) of the parameter names below
 INa_high_modParam_stdev = st_dev_vector(15:18);
