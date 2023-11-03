@@ -11,3 +11,5 @@ This model is published in SpringerBriefs as part of the SSCP 2023 group project
 :computer: The Matlab script to perform the sensitivity analysis and the corresponding figures used in the paper can be found in [Sensitivity analysis](https://github.com/meistef/Pancreatic-Beta-Cell-Network-SIMULA/tree/main/Sensitivity%20analysis).
 
 :computer: The Matlab scripts and functions used for the Genetic Algorithm optimization can be found in [Run_Genetic_Algorithm](https://github.com/meistef/Pancreatic-Beta-Cell-Network-SIMULA/tree/main/Run_Genetic_Algorithm).
+
+:computer: The Matlab scripts and functions used for the network simulations can be found in [SKNM](https://github.com/meistef/Pancreatic-Beta-Cell-Network-SIMULA/tree/main/SKNM).
